@@ -1,0 +1,64 @@
+html, body {
+    height: 100%;
+    margin: 0; 
+    padding: 0; 
+}
+
+body {
+    
+    font-family: Arial, sans-serif;
+    background-image:  linear-gradient(yellow , rgb(47, 225, 47));
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    color: #333;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #c5f6eb;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e6b800;
+}
+
+.hidden {
+    display: none;
+}
+
+#orderDisplay {
+    position: relative;
+    margin-top: 20px;
+}
+
+#foodImage {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+#orderId {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-weight: bold;
+}
